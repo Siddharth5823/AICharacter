@@ -1,0 +1,23 @@
+# Security & Secrets (NEVER push these)
+.env
+*.token
+ngrok_token.txt
+hf_token.txt
+
+# Giant AI weights & models (Too big for GitHub)
+*.safetensors
+*.ckpt
+*.bin
+*.pth
+*.gguf
+models/
+
+# Generated Outputs & Cache
+outputs/
+temp/
+__pycache__/
+*.pyc
+
+# Local environments
+venv/
+.venv/
